@@ -1,0 +1,49 @@
+    
+import React from 'react';
+import {
+  Table,
+  TableBody,
+  TableHeader,
+  TableHeaderColumn,
+  TableRow,
+  TableRowColumn,
+} from 'material-ui/Table';
+
+/**
+ * A simple table demonstrating the hierarchy of the `Table` component and its sub-components.
+ */
+ ReactDOM.render(
+  <h1> previw the uploaded CV's</h1>,
+  document.getElementById('root')
+);
+const TableExampleSimple = () => (
+  <Table>
+    <TableHeader>
+      <TableRow>
+        <TableHeaderColumn>First name </TableHeaderColumn>
+        <TableHeaderColumn>Last name</TableHeaderColumn>
+        <TableHeaderColumn>university</TableHeaderColumn>
+        <TableHeaderColumn>Major</TableHeaderColumn>
+        <TableHeaderColumn>CV</TableHeaderColumn>
+      </TableRow>
+    </TableHeader>
+    <TableBody>
+      <TableRow>
+        <TableRowColumn>amal</TableRowColumn>
+        <TableRowColumn>alabden</TableRowColumn>
+        <TableRowColumn>king saud</TableRowColumn>
+        <TableRowColumn>cs</TableRowColumn>
+        <TableRowColumn>download</TableRowColumn>
+      </TableRow>
+      <TableRow>
+        <TableRowColumn> nor </TableRowColumn>
+        <TableRowColumn> ahmad</TableRowColumn>
+        <TableRowColumn>king faisal </TableRowColumn>
+        <TableRowColumn> biology </TableRowColumn>
+        <TableRowColumn>download </TableRowColumn>
+      </TableRow>
+    </TableBody>
+  </Table>
+);
+
+export default TableExampleSimple;
